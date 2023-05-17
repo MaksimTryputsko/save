@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="test.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/themes/light.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/animations/scale.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.1/css/OverlayScrollbars.min.css" integrity="sha512-jN4O0AUkRmE6Jwc8la2I5iBmS+tCDcfUd1eq8nrZIBnDKTmCp5YxxNN1/aetnAH32qT+dDbk1aGhhoaw5cJNlw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script async src="http://afarkas.github.io/lazysizes/lazysizes.min.js"></script>
+    <script defer src="https://unpkg.com/imask"></script>
+</head>
+
+<body>
+    <header id="top">
+        <h1>Hello MoveTo</h1>
+        <div class="overlay">
+            <div class="actions">
+                <button data-target="#contacts" data-tippy-content="Tooltip">Contacts</button>
+                <button data-target="features" data-tippy-content="Another Tooltip">Our Features</button>
+                <a href="#map">Map</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features"style="flex-direction: column;">
+        <h2>Features</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+
+    <section id="contacts" style="background-color: navajowhite;">
+        <div>
+            <h2>Contacts</h2>
+            <form autocomplete="off">
+                <label>
+                    Phone
+                    <input type="text" id="phone">
+                </label>
+                <label>
+                        age
+                        <input type="text" id="age">
+                </label>
+                <label>
+                        date
+                        <input type="text" id="date">
+                </label>
+
+            </form>
+        </div>
+    </section>
+
+    <section id="map">
+        <div>
+            <h2>Map</h2>
+            <button data-target="#top" data-mt-duration="2000">go top</button>
+        </div>
+
+        
+    </section>
+
+
+
+    <script src="
+    https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js
+    "></script>
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.1/js/OverlayScrollbars.min.js" integrity="sha512-B1xv1CqZlvaOobTbSiJWbRO2iM0iii3wQ/LWnXWJJxKfvIRRJa910sVmyZeOrvI854sLDsFCuFHh4urASj+qgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>      
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="http://afarkas.github.io/lazysizes/lazysizes.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="app.js"></script>  
+</body>
+
+</html>
+
+
+
+

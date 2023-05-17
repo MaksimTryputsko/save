@@ -1,0 +1,31 @@
+section{
+  height: 100vh;
+  width: 100vw;
+  }
+header{
+  height: 100vh;
+  width: 100vw;
+  /* display:flex;
+  justify-content: center;
+  align-items: center; */
+  /* gap:20px; */
+  text-align: center;
+  background-color: yellow;
+  }
+.actions{
+ display:flex;
+ gap:1rem;
+ /* justify-content: center; */
+}
+.actions > * {
+  flex-shrink: 0;
+}
+.swiper-slide {
+  height: 100vh;
+  background-color: red;
+  border: 1px solid #000000;
+}
+/* .overlay{
+  width: 100%;
+  overflow: hidden; 
+} */

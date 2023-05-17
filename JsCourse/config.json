@@ -1,0 +1,10 @@
+{
+    "name": "Maksim",
+    "age": 23,
+    "skills": ["CSS","JS"],
+    "languages": {
+        "English": "B2",
+        "German": "B2"
+    }
+
+}
